@@ -38,16 +38,39 @@ All'interno di questo progetto sono stati utilizzate diverse tecnologie per diff
 
 ------------------------------------------------------------------------------------------------------
 
-### Design Pattern
+### Design Pattern con i digrammi UML
 
 * **Factory Pattern** (CREAZIONE PIATTI): Questo pattern mi è servito per la creazione dei piatti, quindi ho la creazione oggetto piatti in `PiattoR`, dopodichè ho usato le classi `PrimoFactoryR` e `SecondoFactoryR` creano rispettivamente oggetti `PastaR` e `CarneR`. Tutto ciò ci permette di disaccopiare le classi concrette dei piatti e quindi facilità l'aggiunta di altre tipologie di piatti.
+
+![alt text](image-8.png)
+
 * **Singleton Pattern** (GESTIONE PARAMETRO BONUS): Questo pattern lo ritroviamo in `ConfigurationManager` e serviva per avere una configurazione globale che esista in una sola istanza per tutta l'applicazione. La configurazione riguardava la percentuale di bonus da applicare sugli stipendi delle persone scelte.
+
+![alt text](image-14.png)
+
 * **Strategy Pattern** (SCELTA SE DARE O MENO IL BONUS): Questa tecnica mi serviva per definire una famiglia di algoritmi per il calcolo dello stipendio`CalcoloStipendioR`, per semplicità uno mantiene lo stipendio base, invece l'altro ci applica una percentuale di bonus. Queste strategie concrette, `AzioneStipendioBaseR` e `AzioneStipendioBonusR`, vengono iniettate in oggetto `DipendenteR` permettendo la modifica del modo in cui calcolo lo stipendio senza modificare la classe `DipendenteR`.
+
+![alt text](image-9.png)
+
 * **Composite Pattern** (ESEGUIRE OPERAZIONI COMUNI SUL SINGOLO DIPENDENTE O SUL TEAM): Mi ha permesso di creaare gerarchie di personale, un team può avere dipendenti o altri team (formando la cosidetta brigata) e di eseguire operazioni come `getStipendio()` su un'intera brigata.
+
+![alt text](image-10.png)
+
 * **Builder Pattern** (SEMPLFICAZIONE NELLA CREAZIONE DI TEAM COMPLESSI): Infatti la classe `TeamBuilderR` mi consente, passo dopo passo, di aggiungere i membri del team alla volta e poi dare conferma finale per ottenere `TeamR` completo.
+
+![alt text](image-11.png)
+
 * **Observer Pattern** (MONITORAGGIO SULLA MODIFICA DEL TEAM): Quando un membro del team viene modificato, `TeamR`, allora si andrà a notificare gli osservatori come`HRNotifierR`. Quindi mi permette di controllare le aggiunta e le rimozioni dei membri.
+
+![alt text](image-12.png)
+
 * **Memento Pattern** (SE SBAGLIO A CREARE LA SQUADRA? POSSO TORNARE INDIETRO): Questo pattern mi permette di salvare e ripristinare lo stato precedente di un oggettoo `TeamR`. La classe `HistoryTeam` salva gli stati `TeamMemR` e può ripristinarli quando necessario.
-* **Exception Shielding Pattern** (): Questo pattern mi permette di nascondere le eccezioni tecniche e di mostrare quelle personalizzate o significative (`FactoryExceptionR`) al client.
+
+![alt text](image-13.png)
+
+* **Exception Shielding Pattern** (MESSAGGI PERSONALIZZATI E CHIARI PER IL CLIENT): Questo pattern mi permette di nascondere le eccezioni tecniche e di mostrare quelle personalizzate o significative (`FactoryExceptionR`) al client.
+
+![alt text](image-15.png)
 
 ------------------------------------------------------------------------------------------------------
 
@@ -62,4 +85,3 @@ All'interno di questo progetto sono stati utilizzate diverse tecnologie per diff
 4.3) Esegui l'applicazione --> mvn exec:java
 
 Dopo l'esecuzione, verrà compila un file `restaurant.log` nella directory principale del progetto con i dettagli delle operazioni eseguite e un file `lista_menu_preparati.txt` con l'elenco dei piatti preparati.# ProjectOOP
-# ProjectOOP

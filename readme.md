@@ -19,7 +19,10 @@ alcuni pattern con una logica
 * **Gestione dei team**: Le squadre possono essere combinati per costruire una brigata completa, ad esempio Team Cucina e Team supporto vengono combinati per costruire la squadra per il turno.
 * **Monitoraggio delle modifiche del team**: HR o Manager (Observers) possono ricevere le notifhce in caso di modifiche alla composizione di un team (aggiunta o rimozione di membri).
 * **Annullamento delle modifiche**: In caso di errore nella costruzione del team è possibile applicare una specie di undo, per riportare indietro le modifiche allo stato precedente. 
-## b. Tecnologie e pattern utilizzati, con giustificazione
+
+------------------------------------------------------------------------------------------------------
+
+## Tecnologie e pattern utilizzati, con giustificazione
 
 ------------------------------------------------------------------------------------------------------
 
@@ -59,3 +62,4 @@ All'interno di questo progetto sono stati utilizzate diverse tecnologie per diff
 4.3) Esegui l'applicazione --> mvn exec:java
 
 Dopo l'esecuzione, verrà compila un file `restaurant.log` nella directory principale del progetto con i dettagli delle operazioni eseguite e un file `lista_menu_preparati.txt` con l'elenco dei piatti preparati.# ProjectOOP
+# ProjectOOP

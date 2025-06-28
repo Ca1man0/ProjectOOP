@@ -1,0 +1,164 @@
+Jun 28, 2025 7:19:12 PM com.examaiman.App main
+INFO: RIFERIMENTO FACTORY PATTERN: PRODUZIONE PIATTI PIATTI (PRIMO E SECONDO) 
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App main
+INFO: RIFERIMENTO AL FACTORY PATTERN: IN FASE CREAZIONE PIATTO GUSTOSO 
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App leggiIngredientiDaFile
+INFO: 
+ Avvio lettura del file di risorse: ingredienti_pasta.txt
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App leggiIngredientiDaFile
+INFO: 
+ Lettura delle righe è completata 
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App scriviPiattoSuFile
+INFO: 
+ Il piatto Pasta è stato scritto correttamente lista_menu_preparati.txt
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App leggiIngredientiDaFile
+INFO: 
+ Avvio lettura del file di risorse: ingredienti_carne.txt
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App leggiIngredientiDaFile
+INFO: 
+ Lettura delle righe è completata 
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App scriviPiattoSuFile
+INFO: 
+ Il piatto Carne è stato scritto correttamente lista_menu_preparati.txt
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App main
+INFO: 
+ RIFERIMENTO SINGLETON, STRATEGY E COMPOSITE 
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App main
+INFO: 
+ RIFERIMENTO AL SINGLETON PATTERN: IN FASE RACCOLTA DEL DATO BONUS
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App main
+INFO: 
+ Percentuale bonus applicata: 25.0% 
+
+Jun 28, 2025 7:19:12 PM com.examaiman.App main
+INFO: 
+ RIFERIMENTO AL STRATEGY PATTERN: CREAZIONE STRATEGIA SE DARE O MENO IL BONUS AL DIPENDENTE 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ RIFERIMENTO AL COMPOSITE PATTERN: CREAZIONE DEI DIPENDENTI | RIFERIMENTO AL STRATEGY PATTERN: INJECTION DELLA STRATEGIA 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Creazione observer per controllare i cambiamenti nel team 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Team cucina creato con il Builder e Observer registrato 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Team supporto creato con il Builder 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Team composito è completo ora 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ RIFERIMENTO AL OBSERVER PATTERN:SIMULAZIONE DEL MIO OBSERVER HR 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ AAggiungo un nuovo cuoco, ovvero cuoco2 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Rimuovo il mio cuoco, ovvero cuoco1 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ RIFERIMENTO AL MEMENTO PATTERN: IN CASO DI ERRORE 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Stato AS IS del mio team 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE: - Brigata completa (Team): 7700.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Team cucina (Chef e Cuoco 1) (Team): 6200.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Ahmed (Chef): 4000.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Calcutta (Cuoco): 2200.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Team supporto (lavapiatti) (Team): 1500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Morandi (Lavapiatti): 1500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Ho salvato la composizione del team come richiesto 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Stato TO BE del mio team 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE: - Brigata completa (Team): 9500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Team cucina (Chef e Cuoco 1) (Team): 6200.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Ahmed (Chef): 4000.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Calcutta (Cuoco): 2200.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Team supporto (lavapiatti) (Team): 1500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Morandi (Lavapiatti): 1500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Farshad (Cameriere): 1800.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Ripristino lo stato precedente del team 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Stato del Team dopo undo 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE: - Brigata completa (Team): 7700.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Team cucina (Chef e Cuoco 1) (Team): 6200.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Ahmed (Chef): 4000.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Calcutta (Cuoco): 2200.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Team supporto (lavapiatti) (Team): 1500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Morandi (Lavapiatti): 1500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ RECAP DELLA STIAZIONE 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Stampo ogni persona del team, itero sulla brigata 
+
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE: - Brigata completa (Team): 7700.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Team cucina (Chef e Cuoco 1) (Team): 6200.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Ahmed (Chef): 4000.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Calcutta (Cuoco): 2200.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:   - Team supporto (lavapiatti) (Team): 1500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App stampaTeam
+FINE:     - Morandi (Lavapiatti): 1500.0 euro
+Jun 28, 2025 7:19:13 PM com.examaiman.App main
+INFO: 
+ Costo totale della brigata 7700.0 euro 
+
